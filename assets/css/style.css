@@ -2,18 +2,28 @@
 
 /* ----------------------------------------colors */
 
-.ul-nav-color {
-    background-color: #000;    
+.bg-nav-color {
+    background-color: #100f0ff2;    
 }
 
 .bg-navbar-brand {
-    background-color: #000;
+    background-color: #100f0ff2;
 }
 
 
 .bg-color-heading {
-    background-color: #000;
+    background-color:#100f0ff2;
 }
+
+.bg-section {
+    background-color: #fafafa;
+}
+
+.bg-footer {
+    background-color:#100f0ff2;
+}
+
+
  /* ----------------------------------------Special paddings/margins/text */
 h1,h2,h3,h4,h5 {
 margin: 0;
@@ -24,9 +34,9 @@ margin: 0;
 }
 
 .general-sub {
-    font-family: "Open+Sans",sans-serif;
+    font-family: "Metal Mania",sans-serif;
     font-weight: 300;
-    color: rgb(161, 5, 5);
+    color: #fafafa;
     padding-bottom: 5px;
 }
 
@@ -35,16 +45,19 @@ margin: 0;
 }
 
 
-
 /* ----------------------------------------Navbar */
+
+.h-nav {
+    min-height: 100px;
+}
 
 .navbar-brand {
     padding-left: 10px;
-    padding-top: 30px;
+    padding-top: 15px;
     font-family: "Rye",sans-serif;
     font-size: 30px;
     color: rgb(161, 5, 5);
-    height: 100px;
+    height: 80px;
 
 }
 
@@ -63,22 +76,20 @@ margin: 0;
 .menuitem {
     text-align: center;
     padding: 0;
-    height: 100px;
-
-
+    height: 80px;
 }
 
 .menuitem a {
     width: 100%;
     text-decoration: none;
     color: #fafafa;
-    height: 100px;
+    height: 80px;
 
 
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 15px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -135,8 +146,8 @@ margin: 0;
     
 .title {
     color: #fafafa;
-    font-family: "Open+Sans",sans-serif;
-    font-weight: 7600;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
     font-size: 30px;
     
 }
@@ -155,12 +166,44 @@ header {
     -webkit-transition: all .5s ease-in-out;    
 }
 
+/* ----------------------------------------About and three Reasons section */
+
+section {
+    min-height: 300px;
+    margin-bottom: 30px;
+}
+
+.section-heading {
+    font-family: "Metal Mania", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.three-reasons-icon {
+    font-size: 30px;
+    color: rgb(161, 5, 5);;
+}
+
+.three-reasons-heading {
+    margin-bottom: 20px;
+    font-family: "Metal Mania", sans-serif;
+    font-weight: 300;
+}
+
+.three-reasons-p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+
+
+
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #000;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 100px;
     margin: 0;
 }
 
@@ -197,5 +240,11 @@ footer {
 
 #footer-details {
     padding: 15px;
+}
+
+.footer-p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
 }
 
