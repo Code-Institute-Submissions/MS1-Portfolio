@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Rye&family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Rye&family=Open+Sans:wght@100;300;400;600;700;800&family=Roboto:wght@100;300;400;700;900&display=swap');
 
-/* ----------------------------------------colors */
+/* ----------------------------------------Background colors */
 
 .bg-nav-color {
     background-color: #1f1e1ef2;    
@@ -15,28 +15,25 @@
     background-color:#1f1e1ef2;
 }
 
-.bg-section {
-    background-color: #fafafa;
+.bg-section-about {
+    background-color: #7e7b7bc7;
 }
 
 .bg-footer {
     background-color:#1f1e1ef2;
 }
 
-.bg-color-education-traning {
-    background-color: #7e7b7bc7;
-
-}
-
-.bg-color-Work-Experience {
-    background-color: #7e7b7bc7;
-}
-.bg-color-personal-info {
-    background-color: #7e7b7bc7;
-}
-
 .bg-color-card-group {
-    background-color: #7e7b7bc7;
+    background-color: #1f1e1ef2;
+}
+.card-footer {
+   background-color: #e2e3e4;
+}
+.card-body{
+  background-color:  #e2e3e4;  
+}
+.bg-color-contact {
+    background-color:  #e2e3e4;
 }
 
 
@@ -59,6 +56,12 @@ margin: 0;
 .inline-block {
     display: inline-block;
 }
+
+section {
+    margin: 0 auto;
+     min-height: 360px;
+}
+
 
 
 /* ----------------------------------------Navbar */
@@ -147,7 +150,7 @@ margin: 0;
 }
 
 .card:hover {
-    transform: translateY(-20px);
+    transform: translateY(-25px);
 }
 
 
@@ -190,10 +193,7 @@ header {
 
 /* ----------------------------------------Home, three Reasons section */
 
-section {
-    min-height: 360px;
-    
-}
+
 
 .section-heading {
     font-family: "Metal Mania", sans-serif;
@@ -222,6 +222,7 @@ section {
 /* ----------------------------------------About, Personal Info */
 
 .personal-info-item {
+    margin-bottom: 15px;
     color: #fafafa;
     display: block;
     clear: both;
@@ -239,23 +240,21 @@ section {
 }
 
 .personal-info-item .key {
-    width: 30%;
-    margin-right: 21px;
-    padding-top: 2px;
+    width: 25%;
+    margin-right: 18px;
+    padding-top: 5px;
     vertical-align: top;
 }
 
 .personal-info-item .key p {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .personal-info-item .value {
     position: relative;
-    width: 60%;
+    width: 65%;
 }
-.about-section {
-    margin: 0;
-}
+
 
 
 /* ----------------------------------------About, Work and education section */
@@ -307,9 +306,46 @@ section {
 /* ----------------------------------------Projects, cards section */
 
 .card-group-section {
-       padding: 20px;
+       padding: 20px 0 0 50px;
+       margin:0 auto;
 }
 
+.card {
+    width: 85%;
+}
+
+/* ----------------------------------------Contact, Contact Form */
+
+.contact-heading {
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #363535;
+}
+
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
 
 
 
@@ -363,6 +399,6 @@ footer {
 .footer-p {
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 12px;
 }
 
