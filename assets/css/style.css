@@ -59,7 +59,9 @@ margin: 0;
 
 section {
     margin: 0 auto;
-     min-height: 360px;
+    min-height: 360px;
+    
+}
 }
 
 
@@ -73,7 +75,7 @@ section {
 .navbar-brand {
     padding-left: 10px;
     padding-top: 15px;
-    font-family: "Rye",sans-serif;
+    font-family: "Metal Mania",sans-serif;
     font-size: 30px;
     color: rgb(161, 5, 5);
     height: 80px;
@@ -201,6 +203,11 @@ header {
     margin-top: 25px;
     margin-bottom: 30px;
 }
+
+.three-reasons-section {
+    margin-left: -5px;
+    padding-right: 10px;
+}
 .three-reasons-icon {
     font-size: 30px;
     color: rgb(161, 5, 5);;
@@ -241,7 +248,7 @@ header {
 
 .personal-info-item .key {
     width: 25%;
-    margin-right: 18px;
+    margin-right: 10px;
     padding-top: 5px;
     vertical-align: top;
 }
@@ -253,6 +260,7 @@ header {
 .personal-info-item .value {
     position: relative;
     width: 65%;
+    margin-left: 5px;
 }
 
 
@@ -305,13 +313,14 @@ header {
 
 /* ----------------------------------------Projects, cards section */
 
-.card-group-section {
-       padding: 20px 0 0 50px;
-       margin:0 auto;
-}
 
 .card {
-    width: 85%;
+    width: 90%;
+}
+
+.card-group-section {
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 /* ----------------------------------------Contact, Contact Form */
@@ -334,6 +343,9 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #363535;
+}
+.contact-link {
+    color: rgb(161, 5, 5)
 }
 
 /* ----------------------------------------Media Queries */
