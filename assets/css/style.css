@@ -62,7 +62,7 @@ section {
     min-height: 360px;
     
 }
-}
+
 
 
 
@@ -76,7 +76,7 @@ section {
     padding-left: 10px;
     padding-top: 15px;
     font-family: "Metal Mania",sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(161, 5, 5);
     height: 80px;
 
@@ -206,7 +206,7 @@ header {
 
 .three-reasons-section {
     margin-left: -5px;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 .three-reasons-icon {
     font-size: 30px;
@@ -267,13 +267,6 @@ header {
 
 /* ----------------------------------------About, Work and education section */
 
- .history-heading {
-    font-family: "Metal Mania", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 30px;
-}
-
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
@@ -309,6 +302,10 @@ header {
     border-radius: 12px;
     content: '';
     background: #fafafa;
+}
+
+.history-items {
+    padding-bottom: 10px;
 }
 
 /* ----------------------------------------Projects, cards section */
@@ -404,6 +401,12 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.cv-download {
+ font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 40px;   
+}
+
 #footer-details {
     padding: 15px;
 }
@@ -411,6 +414,6 @@ footer {
 .footer-p {
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
-    font-size: 12px;
+    font-size: 15px;
 }
 
