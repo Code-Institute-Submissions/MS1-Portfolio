@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Rye&family=Open+Sans:wght@100;200;300;400;600;700;800&family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Rye&family=Open+Sans:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* ----------------------------------------Background colors */
 
@@ -9,7 +9,6 @@
 .bg-navbar-brand {
     background-color: #1f1e1ef2;
 }
-
 
 .bg-color-heading {
     background-color:#1f1e1ef2;
@@ -26,18 +25,22 @@
 .bg-color-card-group {
     background-color: #1f1e1ef2;
 }
+
 .card-footer {
    background-color: #e2e3e4;
 }
+
 .card-body{
   background-color:  #e2e3e4;  
 }
+
 .bg-color-contact {
     background-color:  #e2e3e4;
 }
 
 
  /* ----------------------------------------Special paddings/margins/text */
+
 h1,h2,h3,h4,h5 {
 margin: 0;
 }
@@ -59,11 +62,8 @@ margin: 0;
 
 section {
     margin: 0 auto;
-    min-height: 360px;
-    
+    min-height: 360px;    
 }
-
-
 
 
 /* ----------------------------------------Navbar */
@@ -79,7 +79,6 @@ section {
     font-size: 40px;
     color: rgb(161, 5, 5);
     height: 80px;
-
 }
 
 .list-inline-item:not(:last-child) {
@@ -94,6 +93,7 @@ section {
     font-size: 16px;
     padding: 0;
 }
+
 .menuitem {
     text-align: center;
     padding: 0;
@@ -105,8 +105,6 @@ section {
     text-decoration: none;
     color: #fafafa;
     height: 80px;
-
-
 }
 
 .menuitem a i {
@@ -114,7 +112,6 @@ section {
     display: block;
     color: #fafafa;
     font-size: 26px;
-
 }
 
 .menuitem span {
@@ -126,6 +123,7 @@ section {
     font-family: "Rye",sans-serif;
     letter-spacing: 2px;
 }
+
 
 /*--------------------------------------------Hover.css*/
 
@@ -199,8 +197,6 @@ header {
 
 /* ----------------------------------------Home, three Reasons section */
 
-
-
 .section-heading {
     font-family: "Metal Mania", sans-serif;
     font-weight: 300;
@@ -212,6 +208,7 @@ header {
     margin-left: -5px;
     padding-right: 15px;
 }
+
 .three-reasons-icon {
     font-size: 30px;
     color: rgb(161, 5, 5);;
@@ -227,21 +224,30 @@ header {
     font-family: "Open Sans", sans-serif;
     font-weight: 200;
     font-size: 20px;
-
 }
+
 
 /* ----------------------------------------About, Personal Info */
 
 .section-about{
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 25px;
     margin-bottom: 30px;
-
+    font-size: 25px;
 }
 
+.section-about-personal-info {
+  font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 50px;  
+    font-size: 25px;
+}
+
+
 .personal-info-item {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: #fafafa;
     display: block;
     clear: both;
@@ -260,7 +266,7 @@ header {
 
 .personal-info-item .key {
     width: 30%;
-    margin-right: 8px;
+    margin-right: 10px;
     padding-top: 5px;
     vertical-align: top;
 }
@@ -295,7 +301,7 @@ header {
     content: attr(data-dates);
     position: absolute;
     left: 30px;
-    top: 30px;
+    top: 25px;
     display: block;
     font-family: "open sans", sans-serif;
     font-weight: 400;
@@ -394,14 +400,14 @@ footer {
 }
 
 .social-links li:not(:first-child) {
-    padding-left: 5px;
+    padding-left: 2px;
 }
 
 
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 8px 0px;
+    padding: 10px 0px;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
