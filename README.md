@@ -189,7 +189,7 @@ The project was deployed to GitHub Page useing the following steps:
 
 -I would like to express my gratitude to the great efforts done by my Memtor.
 -Thanks for all the teachers which helped me in completing this level. All the classes and lessons were very valuable and had a great added value to my knowledge and future career.
--Thanks for all Student Care Adviser which supported the Students.
-- Looking forward for the next project.
+-Thanks for all Student Care Advisers which supported the Students.
+-Looking forward for the next project.
 
 
