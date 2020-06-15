@@ -1,7 +1,7 @@
 # **Ember**
 
 
-*Welcome to my project!* Deploying link
+*Welcome to my project!* [https://nahed2019.github.io/MS1-Portfolio/.]
 
 ![](assets/images/ember.jpg
 )
@@ -160,6 +160,8 @@ A blue button should appear to click: *Make Public*,
 Another blue button should appear to click: *Open Browser*.
 
 ### GitHub Page
+
+published seit link: [https://nahed2019.github.io/MS1-Portfolio/.]
 
 The project was deployed to GitHub Page useing the following steps:
     1. log in to the GitHub Repository
